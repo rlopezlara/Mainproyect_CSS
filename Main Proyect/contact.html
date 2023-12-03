@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- global meta -->
+<head id="head">
+    <title>CONTACT US</title>
+    <meta name="description" content="Final Project">
+     <!-- jQuery link This must be placed before the link to our custom js ... https://releases.jquery.com/ -->
+     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- add our custom js file -->
+    <script src="./js/custom-js.js"></script>
+</head>
+<body>
+    <!-- Global header -->
+    <header id="header"></header>
+    <main>
+        <div id="margen">
+
+        </div>
+        <section class="first-part-contact">
+            <div id="contact-form">
+            <form method="get" action="index.html">
+                <h3>CONTACT FORM</h3>
+              <p><input type="text" placeholder="Your Name" name="name"></p>
+              <p><input type="email" placeholder="Your Email" name="email"></p>
+              <p><input type="text" placeholder="Your phone" name="phone"></p>
+              <p><select id="list-option" name="list">
+                <option value="volvo">Select Subject</option>
+                <option value="audi">General Question</option>
+                <option value="saab">Complain</option>
+                <option value="fiat">Tour Inquiries</option>
+                <option value="audi">Work with Us</option>
+                <option value="audi">Another item</option>                 
+              </select></p>
+              <p><textarea id="comment-box" name="comment" placeholder="Enter your comment" ></textarea></p>
+              <input id="lastboton" type="submit" value="send">
+            </form>
+            </div>    
+        </section>
+    </main>
+    <!-- global footer -->
+    <footer id="footer"></footer>
+</body>
+</html>
